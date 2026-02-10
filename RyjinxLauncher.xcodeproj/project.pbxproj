@@ -1,0 +1,878 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001E372038A8E54B338D4522 /* ThumbnailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4B381C3597A47B547B51F9 /* ThumbnailService.swift */; };
+		177C7AB43B32F70722F602A4 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070CB4F7A0AA46F257D41E7 /* PreviewViewController.swift */; };
+		17C47DE4003A63043053C831 /* RyujinxPathResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4563EEC0353BEA4FF1A48 /* RyujinxPathResolver.swift */; };
+		18237D6B035842DEC1173FD2 /* GameDirectoryLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155CA86F8A9D2C1C703652F9 /* GameDirectoryLocator.swift */; };
+		1C26188446FE38BEDE3333EB /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F9A97220AA174A3357F256 /* StatusBarController.swift */; };
+		28E794DC3A8EA755FA1CD558 /* HotKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8620D7FB8C3B5D60DFC3BAA6 /* HotKeyManager.swift */; };
+		28FD0781ADE6829B550C1824 /* BackgroundShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = BEA1A00BC9F269386D87A91F /* BackgroundShader.metal */; };
+		299AE9E3E44CE7B07C3E982C /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8799910C35C25DB6E187C0 /* ImageCache.swift */; };
+		2B7FB3E53C6C7C5EE509F2E1 /* RyjinxLauncherWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060EB9A2F71184A610CAF37 /* RyjinxLauncherWidgets.swift */; };
+		2C1B992EF858A226A404259F /* SpotlightIndexService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAB1A1E451267D98A4BB7FA /* SpotlightIndexService.swift */; };
+		2D39225EC688E8780F21D71B /* ControllerModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB72CE4C5E53A2C77C3C2C1 /* ControllerModels.swift */; };
+		33F4E661B902B449401EAD48 /* WidgetTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4D89264F89652F987140AD /* WidgetTheme.swift */; };
+		343AD46295B45597F09D83DA /* LauncherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3410B7A39C370C8C6D10214 /* LauncherViewModel.swift */; };
+		37FE646F735C22EEBB817EAD /* LauncherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A8C76D832B25B49149F1FD /* LauncherView.swift */; };
+		3DAB0C1FDCCEE82E59658B40 /* GameCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E733482FA25CEBCD9DDC75DC /* GameCarouselView.swift */; };
+		42025FEA8841EAEA6FF2238F /* RyjinxLauncherWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7708243FBE3F1FDC774BBF41 /* RyjinxLauncherWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		467C35227EC36592C76CB78B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98CD316C0CA8DC250473009 /* Game.swift */; };
+		483C51EA902567862945E9FC /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB8BFE476735287A29B03C9 /* SplashView.swift */; };
+		4AEFD4D5B4606D618D5159A8 /* RyujinxProcessService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21BD74CFEAFE5E56A26863F /* RyujinxProcessService.swift */; };
+		545A1CF41BA0ACF70D282CC0 /* SharedLauncherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE210EE124A8F9D65D8A1D8C /* SharedLauncherData.swift */; };
+		5BA26916636A86C3C3644C19 /* GamingModeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A657A225C39AB18EA97A565A /* GamingModeService.swift */; };
+		5D1C731E1CB4FA4BDED8145E /* ThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9397CDD5CA3D71242E8ADB /* ThumbnailView.swift */; };
+		5F230FE54912DA115C3E5243 /* SharedLauncherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE210EE124A8F9D65D8A1D8C /* SharedLauncherData.swift */; };
+		61C5AF681A57226D3F338E3F /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F934F0455C891175DB4ED8 /* NotificationService.swift */; };
+		64026C1823240457E1358AF1 /* GameCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9EFBB11B3FD645F930E1FA /* GameCardView.swift */; };
+		64C89CE8EA8050D8737A9449 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B825313DDD07739D5B5EC2 /* AppDelegate.swift */; };
+		69D81F24788AEF730AF2466F /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786E79E2070904FB5C843AB /* ShareViewController.swift */; };
+		6CBF452E854606C67245AF1D /* ControllerManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B32063926D12E40155AE26 /* ControllerManagerView.swift */; };
+		6FFBA90FE8C571413F322A4C /* MetalBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B133F7D6D2C3CD0AB0A849B7 /* MetalBackgroundView.swift */; };
+		76FD77DFD175C3420AB0F391 /* ControllerManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136C0B62888080EFF2DECC71 /* ControllerManagerViewModel.swift */; };
+		77D976A5CD79C95CFFBBA418 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC49E645A09C1EA90770E745 /* SoundPlayer.swift */; };
+		8337BF423B2AE0076799F64C /* LauncherAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915265D9EEA9FD938D9F7E6E /* LauncherAppController.swift */; };
+		86A8C2D310A3F11ECD27560F /* AppIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10808BBDC0F9B15D567022E /* AppIntents.swift */; };
+		8CD12CFAF56619A2C57B3DE4 /* ConsoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657441FE4B141FDC08CEF6AA /* ConsoleView.swift */; };
+		8FE95C112EF3897507042CD9 /* RyjinxLauncherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C0638E1F3EC2511A131168 /* RyjinxLauncherApp.swift */; };
+		94E69CCB3CCA1D7812194477 /* QuickLaunchWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986C53108B4F23CA7E8715E9 /* QuickLaunchWidget.swift */; };
+		971C292B91C01581E0D3C8BF /* GameScannerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5214A2EF89BB8F464B9BC792 /* GameScannerService.swift */; };
+		A6D0E08110E050F998952041 /* RecentlyPlayedWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE68BA1362E88B7862B080 /* RecentlyPlayedWidget.swift */; };
+		AAB8FDDA3577CABDA22747FF /* WidgetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02204EF520DDE51183DDA9C3 /* WidgetData.swift */; };
+		AFD6628FED13F06E22B9D80E /* TopPlayedWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C776827B47BFCFDE7D6C6FC7 /* TopPlayedWidget.swift */; };
+		B49CB4B825FD0BE4B9E4883D /* DirectoryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6922686F0D356EB8262E360D /* DirectoryPickerView.swift */; };
+		B597F1DED511F49723C454AD /* RyjinxLauncherShare.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FF8155809D14D9DFC4A2B907 /* RyjinxLauncherShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B5B5575F5AA06A3FA29F5341 /* SharedLauncherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE210EE124A8F9D65D8A1D8C /* SharedLauncherData.swift */; };
+		B6077B5E56D7A785D51C58CE /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0886E28B5F6B55693027354 /* Theme.swift */; };
+		B96237F03A9AA36F3FEC8977 /* WidgetGameCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B530ED3F0D3FEBEE979D8C /* WidgetGameCard.swift */; };
+		B97111BD3D4CBA01ED6170FF /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094281D053D77A24EA7EBD1C /* SettingsStore.swift */; };
+		BC637E0FE5E7C4F5F66534FF /* RyujinxMetadataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14109D7F7C903B2EAF789A8 /* RyujinxMetadataService.swift */; };
+		CDB214BAB92AA23EE17E4FB2 /* RyjinxLauncherQuickLook.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0AA8C84831EEF724ACCD91D6 /* RyjinxLauncherQuickLook.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CEA820F1DEEB1D3A9BBFBF96 /* LauncherSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04991E1EBA09A6B3B23D37C4 /* LauncherSettingsView.swift */; };
+		DE51043348EA40D6261B8408 /* SharedLauncherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE210EE124A8F9D65D8A1D8C /* SharedLauncherData.swift */; };
+		E15B41DF9DBE53AAA5C3D4BF /* ControllerNavigationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FF65CC14CB8D22F53F4163 /* ControllerNavigationAction.swift */; };
+		E3D0AFEA9C9F0A8AE608A6EC /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075598EBBAD304D3DD97EE8F /* MetalRenderer.swift */; };
+		E3E69348017BEEB3559D9D1A /* ConsoleLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF5F6496B1548E0D7BE13C /* ConsoleLine.swift */; };
+		E8043E77A2AE81EB8CBE0D8B /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C485B4E35F7B2768950DAF /* ButtonStyles.swift */; };
+		F15F9434D4C9DCA731DE67E6 /* SharedLauncherData+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FFAF09B3328360881707C8 /* SharedLauncherData+App.swift */; };
+		F51A9B6DD42D7428B7E439AA /* ControllerManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC07F4F73E96FFD79425E7F /* ControllerManagerService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11DD8074E71D7375EA6503DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11713C4A0D045D7CA04CC2F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C55A9E983D85BAF49A57B2A;
+			remoteInfo = RyjinxLauncherQuickLook;
+		};
+		7B2CEB709441A5B205B4ACF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11713C4A0D045D7CA04CC2F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34C868A1E5B08E79AC1295B6;
+			remoteInfo = RyjinxLauncherWidgets;
+		};
+		9AFB621FB1C9FE8AD373E213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11713C4A0D045D7CA04CC2F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C0C967DA6CCD887E52C4EC6;
+			remoteInfo = RyjinxLauncherShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		509293398D653F4B84C21874 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				42025FEA8841EAEA6FF2238F /* RyjinxLauncherWidgets.appex in Embed Foundation Extensions */,
+				CDB214BAB92AA23EE17E4FB2 /* RyjinxLauncherQuickLook.appex in Embed Foundation Extensions */,
+				B597F1DED511F49723C454AD /* RyjinxLauncherShare.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0060EB9A2F71184A610CAF37 /* RyjinxLauncherWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RyjinxLauncherWidgets.swift; sourceTree = "<group>"; };
+		02204EF520DDE51183DDA9C3 /* WidgetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetData.swift; sourceTree = "<group>"; };
+		04991E1EBA09A6B3B23D37C4 /* LauncherSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauncherSettingsView.swift; sourceTree = "<group>"; };
+		075598EBBAD304D3DD97EE8F /* MetalRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalRenderer.swift; sourceTree = "<group>"; };
+		0786E79E2070904FB5C843AB /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		08FFAF09B3328360881707C8 /* SharedLauncherData+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharedLauncherData+App.swift"; sourceTree = "<group>"; };
+		094281D053D77A24EA7EBD1C /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		0AA8C84831EEF724ACCD91D6 /* RyjinxLauncherQuickLook.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RyjinxLauncherQuickLook.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B9EFBB11B3FD645F930E1FA /* GameCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCardView.swift; sourceTree = "<group>"; };
+		136C0B62888080EFF2DECC71 /* ControllerManagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerManagerViewModel.swift; sourceTree = "<group>"; };
+		155CA86F8A9D2C1C703652F9 /* GameDirectoryLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDirectoryLocator.swift; sourceTree = "<group>"; };
+		15B530ED3F0D3FEBEE979D8C /* WidgetGameCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetGameCard.swift; sourceTree = "<group>"; };
+		16B32063926D12E40155AE26 /* ControllerManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerManagerView.swift; sourceTree = "<group>"; };
+		39EF5F6496B1548E0D7BE13C /* ConsoleLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleLine.swift; sourceTree = "<group>"; };
+		4AB8BFE476735287A29B03C9 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		5214A2EF89BB8F464B9BC792 /* GameScannerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScannerService.swift; sourceTree = "<group>"; };
+		5A9397CDD5CA3D71242E8ADB /* ThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailView.swift; sourceTree = "<group>"; };
+		5C8799910C35C25DB6E187C0 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		657441FE4B141FDC08CEF6AA /* ConsoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleView.swift; sourceTree = "<group>"; };
+		6922686F0D356EB8262E360D /* DirectoryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryPickerView.swift; sourceTree = "<group>"; };
+		7708243FBE3F1FDC774BBF41 /* RyjinxLauncherWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RyjinxLauncherWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		77C4563EEC0353BEA4FF1A48 /* RyujinxPathResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RyujinxPathResolver.swift; sourceTree = "<group>"; };
+		7DEE68BA1362E88B7862B080 /* RecentlyPlayedWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlyPlayedWidget.swift; sourceTree = "<group>"; };
+		7DF20B62CB9D48B3B9AE4077 /* RyjinxLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RyjinxLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C485B4E35F7B2768950DAF /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		8620D7FB8C3B5D60DFC3BAA6 /* HotKeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeyManager.swift; sourceTree = "<group>"; };
+		8DAB1A1E451267D98A4BB7FA /* SpotlightIndexService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightIndexService.swift; sourceTree = "<group>"; };
+		8DB72CE4C5E53A2C77C3C2C1 /* ControllerModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerModels.swift; sourceTree = "<group>"; };
+		915265D9EEA9FD938D9F7E6E /* LauncherAppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauncherAppController.swift; sourceTree = "<group>"; };
+		986C53108B4F23CA7E8715E9 /* QuickLaunchWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLaunchWidget.swift; sourceTree = "<group>"; };
+		98F934F0455C891175DB4ED8 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		9D4B381C3597A47B547B51F9 /* ThumbnailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailService.swift; sourceTree = "<group>"; };
+		A070CB4F7A0AA46F257D41E7 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		A2C0638E1F3EC2511A131168 /* RyjinxLauncherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RyjinxLauncherApp.swift; sourceTree = "<group>"; };
+		A657A225C39AB18EA97A565A /* GamingModeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamingModeService.swift; sourceTree = "<group>"; };
+		AD4D89264F89652F987140AD /* WidgetTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTheme.swift; sourceTree = "<group>"; };
+		AFC07F4F73E96FFD79425E7F /* ControllerManagerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerManagerService.swift; sourceTree = "<group>"; };
+		B133F7D6D2C3CD0AB0A849B7 /* MetalBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalBackgroundView.swift; sourceTree = "<group>"; };
+		B14109D7F7C903B2EAF789A8 /* RyujinxMetadataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RyujinxMetadataService.swift; sourceTree = "<group>"; };
+		BEA1A00BC9F269386D87A91F /* BackgroundShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = BackgroundShader.metal; sourceTree = "<group>"; };
+		C10808BBDC0F9B15D567022E /* AppIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntents.swift; sourceTree = "<group>"; };
+		C4A8C76D832B25B49149F1FD /* LauncherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauncherView.swift; sourceTree = "<group>"; };
+		C776827B47BFCFDE7D6C6FC7 /* TopPlayedWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPlayedWidget.swift; sourceTree = "<group>"; };
+		D3410B7A39C370C8C6D10214 /* LauncherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauncherViewModel.swift; sourceTree = "<group>"; };
+		D3FF65CC14CB8D22F53F4163 /* ControllerNavigationAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerNavigationAction.swift; sourceTree = "<group>"; };
+		E0886E28B5F6B55693027354 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		E21BD74CFEAFE5E56A26863F /* RyujinxProcessService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RyujinxProcessService.swift; sourceTree = "<group>"; };
+		E4B825313DDD07739D5B5EC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E733482FA25CEBCD9DDC75DC /* GameCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCarouselView.swift; sourceTree = "<group>"; };
+		F0F9A97220AA174A3357F256 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		F98CD316C0CA8DC250473009 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		FC49E645A09C1EA90770E745 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		FE210EE124A8F9D65D8A1D8C /* SharedLauncherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedLauncherData.swift; sourceTree = "<group>"; };
+		FF8155809D14D9DFC4A2B907 /* RyjinxLauncherShare.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RyjinxLauncherShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0D44768585D9B0DC4C526555 /* RyjinxLauncherWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				986C53108B4F23CA7E8715E9 /* QuickLaunchWidget.swift */,
+				7DEE68BA1362E88B7862B080 /* RecentlyPlayedWidget.swift */,
+				0060EB9A2F71184A610CAF37 /* RyjinxLauncherWidgets.swift */,
+				C776827B47BFCFDE7D6C6FC7 /* TopPlayedWidget.swift */,
+				02204EF520DDE51183DDA9C3 /* WidgetData.swift */,
+				15B530ED3F0D3FEBEE979D8C /* WidgetGameCard.swift */,
+				AD4D89264F89652F987140AD /* WidgetTheme.swift */,
+			);
+			name = RyjinxLauncherWidgets;
+			path = Sources/RyjinxLauncherWidgets;
+			sourceTree = "<group>";
+		};
+		1F2CF16EA8206D8B5842787C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				39EF5F6496B1548E0D7BE13C /* ConsoleLine.swift */,
+				8DB72CE4C5E53A2C77C3C2C1 /* ControllerModels.swift */,
+				D3FF65CC14CB8D22F53F4163 /* ControllerNavigationAction.swift */,
+				F98CD316C0CA8DC250473009 /* Game.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5DD5A47B7375EF4B1C62194C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AFC07F4F73E96FFD79425E7F /* ControllerManagerService.swift */,
+				155CA86F8A9D2C1C703652F9 /* GameDirectoryLocator.swift */,
+				5214A2EF89BB8F464B9BC792 /* GameScannerService.swift */,
+				A657A225C39AB18EA97A565A /* GamingModeService.swift */,
+				8620D7FB8C3B5D60DFC3BAA6 /* HotKeyManager.swift */,
+				5C8799910C35C25DB6E187C0 /* ImageCache.swift */,
+				915265D9EEA9FD938D9F7E6E /* LauncherAppController.swift */,
+				075598EBBAD304D3DD97EE8F /* MetalRenderer.swift */,
+				98F934F0455C891175DB4ED8 /* NotificationService.swift */,
+				B14109D7F7C903B2EAF789A8 /* RyujinxMetadataService.swift */,
+				77C4563EEC0353BEA4FF1A48 /* RyujinxPathResolver.swift */,
+				E21BD74CFEAFE5E56A26863F /* RyujinxProcessService.swift */,
+				094281D053D77A24EA7EBD1C /* SettingsStore.swift */,
+				FC49E645A09C1EA90770E745 /* SoundPlayer.swift */,
+				8DAB1A1E451267D98A4BB7FA /* SpotlightIndexService.swift */,
+				F0F9A97220AA174A3357F256 /* StatusBarController.swift */,
+				9D4B381C3597A47B547B51F9 /* ThumbnailService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5F678511399D2161675B4438 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DF20B62CB9D48B3B9AE4077 /* RyjinxLauncher.app */,
+				0AA8C84831EEF724ACCD91D6 /* RyjinxLauncherQuickLook.appex */,
+				FF8155809D14D9DFC4A2B907 /* RyjinxLauncherShare.appex */,
+				7708243FBE3F1FDC774BBF41 /* RyjinxLauncherWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B4B2A3E97066E923A34FEDC /* RyjinxLauncherQuickLook */ = {
+			isa = PBXGroup;
+			children = (
+				A070CB4F7A0AA46F257D41E7 /* PreviewViewController.swift */,
+			);
+			name = RyjinxLauncherQuickLook;
+			path = Sources/RyjinxLauncherQuickLook;
+			sourceTree = "<group>";
+		};
+		7EA703B3D2704A528E666CF6 /* RyjinxLauncherShare */ = {
+			isa = PBXGroup;
+			children = (
+				0786E79E2070904FB5C843AB /* ShareViewController.swift */,
+			);
+			name = RyjinxLauncherShare;
+			path = Sources/RyjinxLauncherShare;
+			sourceTree = "<group>";
+		};
+		8C9FDF26C70980FF6EAF79FC /* Metal */ = {
+			isa = PBXGroup;
+			children = (
+				BEA1A00BC9F269386D87A91F /* BackgroundShader.metal */,
+			);
+			path = Metal;
+			sourceTree = "<group>";
+		};
+		93F5300CEA1DFB63E4F99726 /* RyjinxLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				E4B825313DDD07739D5B5EC2 /* AppDelegate.swift */,
+				C10808BBDC0F9B15D567022E /* AppIntents.swift */,
+				A2C0638E1F3EC2511A131168 /* RyjinxLauncherApp.swift */,
+				8C9FDF26C70980FF6EAF79FC /* Metal */,
+				1F2CF16EA8206D8B5842787C /* Models */,
+				5DD5A47B7375EF4B1C62194C /* Services */,
+				9CF62925D45AC369B22017DD /* Shared */,
+				F0ED79438809CC7EE0B62E23 /* ViewModels */,
+				C856CB93A1400A60ED497380 /* Views */,
+			);
+			name = RyjinxLauncher;
+			path = Sources/RyjinxLauncher;
+			sourceTree = "<group>";
+		};
+		9CF62925D45AC369B22017DD /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FE210EE124A8F9D65D8A1D8C /* SharedLauncherData.swift */,
+				08FFAF09B3328360881707C8 /* SharedLauncherData+App.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C856CB93A1400A60ED497380 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				85C485B4E35F7B2768950DAF /* ButtonStyles.swift */,
+				657441FE4B141FDC08CEF6AA /* ConsoleView.swift */,
+				16B32063926D12E40155AE26 /* ControllerManagerView.swift */,
+				6922686F0D356EB8262E360D /* DirectoryPickerView.swift */,
+				0B9EFBB11B3FD645F930E1FA /* GameCardView.swift */,
+				E733482FA25CEBCD9DDC75DC /* GameCarouselView.swift */,
+				04991E1EBA09A6B3B23D37C4 /* LauncherSettingsView.swift */,
+				C4A8C76D832B25B49149F1FD /* LauncherView.swift */,
+				B133F7D6D2C3CD0AB0A849B7 /* MetalBackgroundView.swift */,
+				4AB8BFE476735287A29B03C9 /* SplashView.swift */,
+				E0886E28B5F6B55693027354 /* Theme.swift */,
+				5A9397CDD5CA3D71242E8ADB /* ThumbnailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CD604ACFA664D56335840B14 = {
+			isa = PBXGroup;
+			children = (
+				93F5300CEA1DFB63E4F99726 /* RyjinxLauncher */,
+				7B4B2A3E97066E923A34FEDC /* RyjinxLauncherQuickLook */,
+				7EA703B3D2704A528E666CF6 /* RyjinxLauncherShare */,
+				0D44768585D9B0DC4C526555 /* RyjinxLauncherWidgets */,
+				5F678511399D2161675B4438 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0ED79438809CC7EE0B62E23 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				136C0B62888080EFF2DECC71 /* ControllerManagerViewModel.swift */,
+				D3410B7A39C370C8C6D10214 /* LauncherViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34C868A1E5B08E79AC1295B6 /* RyjinxLauncherWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19402BA90C6D58F6DC8C4B47 /* Build configuration list for PBXNativeTarget "RyjinxLauncherWidgets" */;
+			buildPhases = (
+				0669CFEFADE12F35610C7E88 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RyjinxLauncherWidgets;
+			packageProductDependencies = (
+			);
+			productName = RyjinxLauncherWidgets;
+			productReference = 7708243FBE3F1FDC774BBF41 /* RyjinxLauncherWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		42450AF6F1BD00EA5FAD9FC6 /* RyjinxLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2298FC02F1BACE5772DED537 /* Build configuration list for PBXNativeTarget "RyjinxLauncher" */;
+			buildPhases = (
+				AB1B2F2064B66259546A95A0 /* Sources */,
+				509293398D653F4B84C21874 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E06705DA021EB045100BF06D /* PBXTargetDependency */,
+				55FF34F906F41CF7D9908169 /* PBXTargetDependency */,
+				A74343935C628E2333690210 /* PBXTargetDependency */,
+			);
+			name = RyjinxLauncher;
+			packageProductDependencies = (
+			);
+			productName = RyjinxLauncher;
+			productReference = 7DF20B62CB9D48B3B9AE4077 /* RyjinxLauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C55A9E983D85BAF49A57B2A /* RyjinxLauncherQuickLook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50AE827D3FD5CC72376479B /* Build configuration list for PBXNativeTarget "RyjinxLauncherQuickLook" */;
+			buildPhases = (
+				E5E80D24A63B20937508E490 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RyjinxLauncherQuickLook;
+			packageProductDependencies = (
+			);
+			productName = RyjinxLauncherQuickLook;
+			productReference = 0AA8C84831EEF724ACCD91D6 /* RyjinxLauncherQuickLook.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		6C0C967DA6CCD887E52C4EC6 /* RyjinxLauncherShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C76DC96C2BB3BA212FF6B21 /* Build configuration list for PBXNativeTarget "RyjinxLauncherShare" */;
+			buildPhases = (
+				6865F9724420C68E0D118D72 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RyjinxLauncherShare;
+			packageProductDependencies = (
+			);
+			productName = RyjinxLauncherShare;
+			productReference = FF8155809D14D9DFC4A2B907 /* RyjinxLauncherShare.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11713C4A0D045D7CA04CC2F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					34C868A1E5B08E79AC1295B6 = {
+						ProvisioningStyle = Automatic;
+					};
+					42450AF6F1BD00EA5FAD9FC6 = {
+						ProvisioningStyle = Automatic;
+					};
+					4C55A9E983D85BAF49A57B2A = {
+						ProvisioningStyle = Automatic;
+					};
+					6C0C967DA6CCD887E52C4EC6 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8C9D218E72C4A7A4994BCD0E /* Build configuration list for PBXProject "RyjinxLauncher" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CD604ACFA664D56335840B14;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42450AF6F1BD00EA5FAD9FC6 /* RyjinxLauncher */,
+				4C55A9E983D85BAF49A57B2A /* RyjinxLauncherQuickLook */,
+				6C0C967DA6CCD887E52C4EC6 /* RyjinxLauncherShare */,
+				34C868A1E5B08E79AC1295B6 /* RyjinxLauncherWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0669CFEFADE12F35610C7E88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E69CCB3CCA1D7812194477 /* QuickLaunchWidget.swift in Sources */,
+				A6D0E08110E050F998952041 /* RecentlyPlayedWidget.swift in Sources */,
+				2B7FB3E53C6C7C5EE509F2E1 /* RyjinxLauncherWidgets.swift in Sources */,
+				545A1CF41BA0ACF70D282CC0 /* SharedLauncherData.swift in Sources */,
+				AFD6628FED13F06E22B9D80E /* TopPlayedWidget.swift in Sources */,
+				AAB8FDDA3577CABDA22747FF /* WidgetData.swift in Sources */,
+				B96237F03A9AA36F3FEC8977 /* WidgetGameCard.swift in Sources */,
+				33F4E661B902B449401EAD48 /* WidgetTheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6865F9724420C68E0D118D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D81F24788AEF730AF2466F /* ShareViewController.swift in Sources */,
+				5F230FE54912DA115C3E5243 /* SharedLauncherData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1B2F2064B66259546A95A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C89CE8EA8050D8737A9449 /* AppDelegate.swift in Sources */,
+				86A8C2D310A3F11ECD27560F /* AppIntents.swift in Sources */,
+				28FD0781ADE6829B550C1824 /* BackgroundShader.metal in Sources */,
+				E8043E77A2AE81EB8CBE0D8B /* ButtonStyles.swift in Sources */,
+				E3E69348017BEEB3559D9D1A /* ConsoleLine.swift in Sources */,
+				8CD12CFAF56619A2C57B3DE4 /* ConsoleView.swift in Sources */,
+				F51A9B6DD42D7428B7E439AA /* ControllerManagerService.swift in Sources */,
+				6CBF452E854606C67245AF1D /* ControllerManagerView.swift in Sources */,
+				76FD77DFD175C3420AB0F391 /* ControllerManagerViewModel.swift in Sources */,
+				2D39225EC688E8780F21D71B /* ControllerModels.swift in Sources */,
+				E15B41DF9DBE53AAA5C3D4BF /* ControllerNavigationAction.swift in Sources */,
+				B49CB4B825FD0BE4B9E4883D /* DirectoryPickerView.swift in Sources */,
+				467C35227EC36592C76CB78B /* Game.swift in Sources */,
+				64026C1823240457E1358AF1 /* GameCardView.swift in Sources */,
+				3DAB0C1FDCCEE82E59658B40 /* GameCarouselView.swift in Sources */,
+				18237D6B035842DEC1173FD2 /* GameDirectoryLocator.swift in Sources */,
+				971C292B91C01581E0D3C8BF /* GameScannerService.swift in Sources */,
+				5BA26916636A86C3C3644C19 /* GamingModeService.swift in Sources */,
+				28E794DC3A8EA755FA1CD558 /* HotKeyManager.swift in Sources */,
+				299AE9E3E44CE7B07C3E982C /* ImageCache.swift in Sources */,
+				8337BF423B2AE0076799F64C /* LauncherAppController.swift in Sources */,
+				CEA820F1DEEB1D3A9BBFBF96 /* LauncherSettingsView.swift in Sources */,
+				37FE646F735C22EEBB817EAD /* LauncherView.swift in Sources */,
+				343AD46295B45597F09D83DA /* LauncherViewModel.swift in Sources */,
+				6FFBA90FE8C571413F322A4C /* MetalBackgroundView.swift in Sources */,
+				E3D0AFEA9C9F0A8AE608A6EC /* MetalRenderer.swift in Sources */,
+				61C5AF681A57226D3F338E3F /* NotificationService.swift in Sources */,
+				8FE95C112EF3897507042CD9 /* RyjinxLauncherApp.swift in Sources */,
+				BC637E0FE5E7C4F5F66534FF /* RyujinxMetadataService.swift in Sources */,
+				17C47DE4003A63043053C831 /* RyujinxPathResolver.swift in Sources */,
+				4AEFD4D5B4606D618D5159A8 /* RyujinxProcessService.swift in Sources */,
+				B97111BD3D4CBA01ED6170FF /* SettingsStore.swift in Sources */,
+				F15F9434D4C9DCA731DE67E6 /* SharedLauncherData+App.swift in Sources */,
+				B5B5575F5AA06A3FA29F5341 /* SharedLauncherData.swift in Sources */,
+				77D976A5CD79C95CFFBBA418 /* SoundPlayer.swift in Sources */,
+				483C51EA902567862945E9FC /* SplashView.swift in Sources */,
+				2C1B992EF858A226A404259F /* SpotlightIndexService.swift in Sources */,
+				1C26188446FE38BEDE3333EB /* StatusBarController.swift in Sources */,
+				B6077B5E56D7A785D51C58CE /* Theme.swift in Sources */,
+				001E372038A8E54B338D4522 /* ThumbnailService.swift in Sources */,
+				5D1C731E1CB4FA4BDED8145E /* ThumbnailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E80D24A63B20937508E490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177C7AB43B32F70722F602A4 /* PreviewViewController.swift in Sources */,
+				DE51043348EA40D6261B8408 /* SharedLauncherData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55FF34F906F41CF7D9908169 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C55A9E983D85BAF49A57B2A /* RyjinxLauncherQuickLook */;
+			targetProxy = 11DD8074E71D7375EA6503DA /* PBXContainerItemProxy */;
+		};
+		A74343935C628E2333690210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C0C967DA6CCD887E52C4EC6 /* RyjinxLauncherShare */;
+			targetProxy = 9AFB621FB1C9FE8AD373E213 /* PBXContainerItemProxy */;
+		};
+		E06705DA021EB045100BF06D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34C868A1E5B08E79AC1295B6 /* RyjinxLauncherWidgets */;
+			targetProxy = 7B2CEB709441A5B205B4ACF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07E23430440ECDAE4F36E674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		0C827F7C78D30DBD9E91E022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		2E17094A728E86DFEA5CBADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = RyjinxLauncher.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZG4594K3ZL;
+				ENABLE_APP_SANDBOX = NO;
+				INFOPLIST_FILE = "RyjinxLauncher-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryjinx.launcher;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		86E0EBCC24711000DE72AF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
+				CODE_SIGN_ENTITLEMENTS = RyjinxLauncherShare.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZG4594K3ZL;
+				ENABLE_APP_SANDBOX = NO;
+				INFOPLIST_FILE = "RyjinxLauncherShare-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryjinx.launcher.share;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8A901010106BF24E0ED48339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
+				CODE_SIGN_ENTITLEMENTS = RyjinxLauncherShare.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZG4594K3ZL;
+				ENABLE_APP_SANDBOX = NO;
+				INFOPLIST_FILE = "RyjinxLauncherShare-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryjinx.launcher.share;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8CF57A68A4D4CCC873FAD0C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
+				CODE_SIGN_ENTITLEMENTS = RyjinxLauncherWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZG4594K3ZL;
+				ENABLE_APP_SANDBOX = NO;
+				INFOPLIST_FILE = "RyjinxLauncherWidgets-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryjinx.launcher.widgets;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8D4DEAB7B2D850E1257480E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
+				CODE_SIGN_ENTITLEMENTS = RyjinxLauncherQuickLook.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZG4594K3ZL;
+				ENABLE_APP_SANDBOX = NO;
+				INFOPLIST_FILE = "RyjinxLauncherQuickLook-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryjinx.launcher.quicklook;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B3150E5CBC48754FB666ABBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = RyjinxLauncher.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZG4594K3ZL;
+				ENABLE_APP_SANDBOX = NO;
+				INFOPLIST_FILE = "RyjinxLauncher-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryjinx.launcher;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D7A51727F51F1C74819B2035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
+				CODE_SIGN_ENTITLEMENTS = RyjinxLauncherWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZG4594K3ZL;
+				ENABLE_APP_SANDBOX = NO;
+				INFOPLIST_FILE = "RyjinxLauncherWidgets-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryjinx.launcher.widgets;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E334805BB49BE71ACF855BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
+				CODE_SIGN_ENTITLEMENTS = RyjinxLauncherQuickLook.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZG4594K3ZL;
+				ENABLE_APP_SANDBOX = NO;
+				INFOPLIST_FILE = "RyjinxLauncherQuickLook-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryjinx.launcher.quicklook;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19402BA90C6D58F6DC8C4B47 /* Build configuration list for PBXNativeTarget "RyjinxLauncherWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A51727F51F1C74819B2035 /* Debug */,
+				8CF57A68A4D4CCC873FAD0C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2298FC02F1BACE5772DED537 /* Build configuration list for PBXNativeTarget "RyjinxLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3150E5CBC48754FB666ABBB /* Debug */,
+				2E17094A728E86DFEA5CBADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2C76DC96C2BB3BA212FF6B21 /* Build configuration list for PBXNativeTarget "RyjinxLauncherShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86E0EBCC24711000DE72AF92 /* Debug */,
+				8A901010106BF24E0ED48339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8C9D218E72C4A7A4994BCD0E /* Build configuration list for PBXProject "RyjinxLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E23430440ECDAE4F36E674 /* Debug */,
+				0C827F7C78D30DBD9E91E022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B50AE827D3FD5CC72376479B /* Build configuration list for PBXNativeTarget "RyjinxLauncherQuickLook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D4DEAB7B2D850E1257480E2 /* Debug */,
+				E334805BB49BE71ACF855BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11713C4A0D045D7CA04CC2F0 /* Project object */;
+}

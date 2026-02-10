@@ -1,0 +1,907 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+    "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher_RyjinxLauncher.bundle/BackgroundShader.metal" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Metal/BackgroundShader.metal"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher_RyjinxLauncher.bundle/BackgroundShader.metal"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.RyjinxLauncher-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/sources",
+      "importPath" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Models/ConsoleLine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Models/ControllerModels.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Models/ControllerNavigationAction.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Models/Game.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/RyjinxLauncherApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/ControllerManagerService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/GameDirectoryLocator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/GameScannerService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/GamingModeService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/ImageCache.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/MetalRenderer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/RyujinxMetadataService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/RyujinxPathResolver.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/RyujinxProcessService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/SettingsStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/SoundPlayer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/ThumbnailService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Shared/SharedLauncherData+App.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Shared/SharedLauncherData.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/ViewModels/ControllerManagerViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/ViewModels/LauncherViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/ButtonStyles.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/ConsoleView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/ControllerManagerView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/DirectoryPickerView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/GameCardView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/GameCarouselView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/LauncherSettingsView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/LauncherView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/MetalBackgroundView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/SplashView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/Theme.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/ThumbnailView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<RyjinxLauncher-arm64-apple-macosx15.0-debug.module-resources>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "RyjinxLauncher",
+      "moduleOutputPath" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/Modules/RyjinxLauncher.swiftmodule",
+      "objects" : [
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ConsoleLine.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ControllerModels.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ControllerNavigationAction.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/Game.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/RyjinxLauncherApp.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ControllerManagerService.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/GameDirectoryLocator.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/GameScannerService.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/GamingModeService.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ImageCache.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/MetalRenderer.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/RyujinxMetadataService.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/RyujinxPathResolver.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/RyujinxProcessService.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/SettingsStore.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/SoundPlayer.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ThumbnailService.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/SharedLauncherData+App.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/SharedLauncherData.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ControllerManagerViewModel.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/LauncherViewModel.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ButtonStyles.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ConsoleView.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ControllerManagerView.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/DirectoryPickerView.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/GameCardView.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/GameCarouselView.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/LauncherSettingsView.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/LauncherView.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/MetalBackgroundView.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/SplashView.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/Theme.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ThumbnailView.swift.o",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/resource_bundle_accessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx15.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+        "-module-cache-path",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "RyjinxLauncher_main",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "launcher"
+      ],
+      "outputFileMapPath" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ConsoleLine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ControllerModels.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ControllerNavigationAction.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/Game.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/RyjinxLauncherApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ControllerManagerService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/GameDirectoryLocator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/GameScannerService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/GamingModeService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ImageCache.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/MetalRenderer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/RyujinxMetadataService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/RyujinxPathResolver.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/RyujinxProcessService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/SettingsStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/SoundPlayer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ThumbnailService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/SharedLauncherData+App.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/SharedLauncherData.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ControllerManagerViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/LauncherViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ButtonStyles.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ConsoleView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ControllerManagerView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/DirectoryPickerView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/GameCardView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/GameCarouselView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/LauncherSettingsView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/LauncherView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/MetalBackgroundView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/SplashView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/Theme.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ThumbnailView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/Modules/RyjinxLauncher.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Models/ConsoleLine.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Models/ControllerModels.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Models/ControllerNavigationAction.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Models/Game.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/RyjinxLauncherApp.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/ControllerManagerService.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/GameDirectoryLocator.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/GameScannerService.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/GamingModeService.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/ImageCache.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/MetalRenderer.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/RyujinxMetadataService.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/RyujinxPathResolver.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/RyujinxProcessService.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/SettingsStore.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/SoundPlayer.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/ThumbnailService.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Shared/SharedLauncherData+App.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Shared/SharedLauncherData.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/ViewModels/ControllerManagerViewModel.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/ViewModels/LauncherViewModel.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/ButtonStyles.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/ConsoleView.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/ControllerManagerView.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/DirectoryPickerView.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/GameCardView.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/GameCarouselView.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/LauncherSettingsView.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/LauncherView.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/MetalBackgroundView.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/SplashView.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/Theme.swift",
+        "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/ThumbnailView.swift",
+        "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/DerivedSources/resource_bundle_accessor.swift"
+      ],
+      "tempsPath" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "RyjinxLauncher" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "RyjinxLauncher",
+      "-package-name",
+      "launcher",
+      "-c",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Models/ConsoleLine.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Models/ControllerModels.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Models/ControllerNavigationAction.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Models/Game.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/RyjinxLauncherApp.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/ControllerManagerService.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/GameDirectoryLocator.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/GameScannerService.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/GamingModeService.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/ImageCache.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/MetalRenderer.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/RyujinxMetadataService.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/RyujinxPathResolver.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/RyujinxProcessService.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/SettingsStore.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/SoundPlayer.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/ThumbnailService.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Shared/SharedLauncherData+App.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Shared/SharedLauncherData.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/ViewModels/ControllerManagerViewModel.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/ViewModels/LauncherViewModel.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/ButtonStyles.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/ConsoleView.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/ControllerManagerView.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/DirectoryPickerView.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/GameCardView.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/GameCarouselView.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/LauncherSettingsView.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/LauncherView.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/MetalBackgroundView.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/SplashView.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/Theme.swift",
+      "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/ThumbnailView.swift",
+      "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/DerivedSources/resource_bundle_accessor.swift",
+      "-I",
+      "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx15.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+      "-module-cache-path",
+      "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "RyjinxLauncher_main",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "launcher",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "RyjinxLauncher" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher-entitlement.plist"
+    },
+    "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Models/ConsoleLine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Models/ControllerModels.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Models/ControllerNavigationAction.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Models/Game.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/RyjinxLauncherApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/ControllerManagerService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/GameDirectoryLocator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/GameScannerService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/GamingModeService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/ImageCache.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/MetalRenderer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/RyujinxMetadataService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/RyujinxPathResolver.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/RyujinxProcessService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/SettingsStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/SoundPlayer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Services/ThumbnailService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Shared/SharedLauncherData+App.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Shared/SharedLauncherData.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/ViewModels/ControllerManagerViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/ViewModels/LauncherViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/ButtonStyles.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/ConsoleView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/ControllerManagerView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/DirectoryPickerView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/GameCardView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/GameCarouselView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/LauncherSettingsView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/LauncherView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/MetalBackgroundView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/SplashView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/Theme.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/Sources/RyjinxLauncher/Views/ThumbnailView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/DerivedSources/resource_bundle_accessor.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/sources"
+    },
+    "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ButtonStyles.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ConsoleLine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ConsoleView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ControllerManagerService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ControllerManagerView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ControllerManagerViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ControllerModels.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ControllerNavigationAction.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/DirectoryPickerView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/Game.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/GameCardView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/GameCarouselView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/GameDirectoryLocator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/GameScannerService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/GamingModeService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ImageCache.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/LauncherSettingsView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/LauncherView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/LauncherViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/MetalBackgroundView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/MetalRenderer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/RyjinxLauncherApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/RyujinxMetadataService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/RyujinxPathResolver.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/RyujinxProcessService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/SettingsStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/SharedLauncherData+App.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/SharedLauncherData.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/SoundPlayer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/SplashView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/Theme.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ThumbnailService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/ThumbnailView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.build/resource_bundle_accessor.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/RyjinxLauncher.product/Objects.LinkFileList"
+    },
+    "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/zinedinarnaut/Documents/launcher/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

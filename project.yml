@@ -1,0 +1,203 @@
+name: RyjinxLauncher
+options:
+  bundleIdPrefix: com.ryjinx
+  deploymentTarget:
+    macOS: "15.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+
+schemes:
+  RyjinxLauncher:
+    shared: true
+    build:
+      targets:
+        RyjinxLauncher: all
+    run:
+      config: Debug
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release
+  RyjinxLauncherWidgets:
+    shared: true
+    build:
+      targets:
+        RyjinxLauncherWidgets: all
+    run:
+      config: Debug
+    profile:
+      config: Release
+
+targets:
+  RyjinxLauncher:
+    type: application
+    platform: macOS
+    sources:
+      - Sources/RyjinxLauncher
+    entitlements:
+      path: RyjinxLauncher.entitlements
+      properties:
+        com.apple.security.app-sandbox: true
+        com.apple.security.application-groups:
+          - group.com.ryjinx.launcher
+        com.apple.security.files.user-selected.read-only: true
+        com.apple.security.network.client: true
+    dependencies:
+      - target: RyjinxLauncherWidgets
+        embed: true
+      - target: RyjinxLauncherQuickLook
+        embed: true
+      - target: RyjinxLauncherShare
+        embed: true
+    info:
+      path: RyjinxLauncher-Info.plist
+      properties:
+        LSMinimumSystemVersion: "15.0"
+        NSHighResolutionCapable: true
+        LSApplicationCategoryType: "public.app-category.games"
+        GCSupportsGameMode: true
+        LSSupportsGameMode: true
+        CFBundleURLTypes:
+          - CFBundleURLName: com.ryjinx.launcher
+            CFBundleURLSchemes:
+              - ryjinx
+        UTTypeDeclarations:
+          - UTTypeIdentifier: com.ryjinx.nsp
+            UTTypeDescription: Nintendo Switch Package
+            UTTypeConformsTo:
+              - public.data
+            UTTypeTagSpecification:
+              public.filename-extension:
+                - nsp
+          - UTTypeIdentifier: com.ryjinx.xci
+            UTTypeDescription: Nintendo Switch Cartridge Image
+            UTTypeConformsTo:
+              - public.data
+            UTTypeTagSpecification:
+              public.filename-extension:
+                - xci
+          - UTTypeIdentifier: com.ryjinx.nro
+            UTTypeDescription: Nintendo Switch Homebrew
+            UTTypeConformsTo:
+              - public.data
+            UTTypeTagSpecification:
+              public.filename-extension:
+                - nro
+          - UTTypeIdentifier: com.ryjinx.nca
+            UTTypeDescription: Nintendo Switch Content Archive
+            UTTypeConformsTo:
+              - public.data
+            UTTypeTagSpecification:
+              public.filename-extension:
+                - nca
+          - UTTypeIdentifier: com.ryjinx.nsz
+            UTTypeDescription: Nintendo Switch Compressed Package
+            UTTypeConformsTo:
+              - public.data
+            UTTypeTagSpecification:
+              public.filename-extension:
+                - nsz
+        CFBundleDocumentTypes:
+          - CFBundleTypeName: Nintendo Switch Game
+            LSHandlerRank: Owner
+            LSItemContentTypes:
+              - com.ryjinx.nsp
+              - com.ryjinx.xci
+              - com.ryjinx.nro
+              - com.ryjinx.nca
+              - com.ryjinx.nsz
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: "com.ryjinx.launcher"
+        CODE_SIGN_STYLE: Automatic
+        ASSETCATALOG_COMPILER_APPICON_NAME: ""
+
+  RyjinxLauncherWidgets:
+    type: app-extension
+    platform: macOS
+    sources:
+      - Sources/RyjinxLauncherWidgets
+      - Sources/RyjinxLauncher/Shared/SharedLauncherData.swift
+    entitlements:
+      path: RyjinxLauncherWidgets.entitlements
+      properties:
+        com.apple.security.app-sandbox: true
+        com.apple.security.application-groups:
+          - group.com.ryjinx.launcher
+    info:
+      path: RyjinxLauncherWidgets-Info.plist
+      properties:
+        LSMinimumSystemVersion: "15.0"
+        NSExtension:
+          NSExtensionPointIdentifier: "com.apple.widgetkit-extension"
+          NSExtensionPrincipalClass: "$(PRODUCT_MODULE_NAME).RyjinxLauncherWidgets"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: "com.ryjinx.launcher.widgets"
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: ""
+
+  RyjinxLauncherQuickLook:
+    type: app-extension
+    platform: macOS
+    sources:
+      - Sources/RyjinxLauncherQuickLook
+      - Sources/RyjinxLauncher/Shared/SharedLauncherData.swift
+    entitlements:
+      path: RyjinxLauncherQuickLook.entitlements
+      properties:
+        com.apple.security.app-sandbox: true
+        com.apple.security.application-groups:
+          - group.com.ryjinx.launcher
+    info:
+      path: RyjinxLauncherQuickLook-Info.plist
+      properties:
+        LSMinimumSystemVersion: "15.0"
+        NSExtension:
+          NSExtensionPointIdentifier: "com.apple.quicklook.preview"
+          NSExtensionPrincipalClass: "$(PRODUCT_MODULE_NAME).PreviewViewController"
+          NSExtensionAttributes:
+            QLSupportedContentTypes:
+              - com.ryjinx.nsp
+              - com.ryjinx.xci
+              - com.ryjinx.nro
+              - com.ryjinx.nca
+              - com.ryjinx.nsz
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: "com.ryjinx.launcher.quicklook"
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: ""
+
+  RyjinxLauncherShare:
+    type: app-extension
+    platform: macOS
+    sources:
+      - Sources/RyjinxLauncherShare
+      - Sources/RyjinxLauncher/Shared/SharedLauncherData.swift
+    entitlements:
+      path: RyjinxLauncherShare.entitlements
+      properties:
+        com.apple.security.app-sandbox: true
+        com.apple.security.application-groups:
+          - group.com.ryjinx.launcher
+    info:
+      path: RyjinxLauncherShare-Info.plist
+      properties:
+        LSMinimumSystemVersion: "15.0"
+        NSExtension:
+          NSExtensionPointIdentifier: "com.apple.share-services"
+          NSExtensionPrincipalClass: "$(PRODUCT_MODULE_NAME).ShareViewController"
+          NSExtensionAttributes:
+            NSExtensionActivationRule: 'SUBQUERY (extensionItems, $item, SUBQUERY ($item.attachments, $attachment, ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.data").@count >= 1).@count >= 1'
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: "com.ryjinx.launcher.share"
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: ""
